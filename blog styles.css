@@ -72,6 +72,11 @@ body {
     padding: 8px 10px;
 }
 
+.main-header img{
+    height: 40px;
+}
+
+
 .main-header > div {
     display: inline-block;
     vertical-align: middle;

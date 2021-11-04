@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+}
+
+
+#product-overview {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: xx-large; 
+    font-weight: bolder;
+    background: turquoise;
+}
+
+#product-overview h1{
+    color: black;
+    font-size: bolder;
+}
+
+
+.section-tittle{
+    text-align: center;
+    font-size: 40px;
+    background: rgb(133, 216, 133);;
+    color: white;
+    height: 50px;
+    margin: 5px 0px;
+}
+
+
+.posts{
+    background: rgb(230, 236, 238);
+    text-align: left;
+    padding: 25px;
+    margin:  25px auto ;
+    width: 50%;
+    vertical-align: middle;
+    border-radius: 15px;
+    border: rgb(77, 118, 151) 3px solid
+
+}
+
+.posts:hover,
+.posts:active{
+    border-color: turquoise;
+}
+
+.posts__Titulos{
+    font-size: xx-large;
+    font-weight: 900;
+    text-decoration: underline 2px;
+    text-align: center;
+}
+
+.posts__SubTitulos{
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    padding: 3px;
+}
+
+
+
+.posts__descripcion{
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.posts__textoresaltado{
+    background: rgb(77, 118, 151);
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+
+
+}
+
+
+.main-header {
+    width: 100%;
+    background:rgb(250, 235, 169);
+    padding: 8px 10px;
+    position: fixed;
+    top: 0px;
+}
+
+
+.main-header img{
+    height: 40px;
+}
+
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+    
+
+
+.main-header__brand{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+
+.main-nav {
+   display: inline-block;
+   text-align: right;
+   vertical-align: middle;
+   width:  calc(100% - 54px);
+}
+
+.main-nav__items{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    font: size 20px;
+    margin: 0 16px;
+
+}
+
+.main-nav__item a {
+  text-decoration: none; 
+  font-weight: bold; 
+  color: black;
+}
+
+.main-nav__item a:hover{
+    color: whitesmoke;
+    border-top: 3px solid white;
+
+}
+
+
+.main-nav__item a:active{
+color: rgb(255, 255, 255);
+border-top: 3px solid whitesmoke;
+}
+
+
+.main-footer{
+    background: rgb(8, 40, 100);
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0px;    
+    padding: 30px;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0px;    
+    padding: 0px 20px;
+    font-weight: 20px;
+    font-weight: 600;
+}
+
+.main-footer__link a {
+   color: white;
+   text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+    color:  rgb(8, 40, 100);
+}
+
