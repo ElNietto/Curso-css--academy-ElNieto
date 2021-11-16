@@ -43,11 +43,20 @@ body {
     padding: 20px;
     margin: 5px;
     display: inline-block;
-    width: 28%;
+    width: 20%;
     vertical-align: middle;
-    border-radius: 30px;
+    border-radius: 10px;
+    transition: all 0.1s;
 }
 
+@media screen {
+    
+}
+
+.posts:hover{
+    transform: scale(1.05) ;
+
+}
 .posts--highlighted{
     background: rgb(121, 250, 185);
     box-shadow: rgb(149, 185, 185) 4px 4px 4px 4px;

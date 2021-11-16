@@ -30,20 +30,21 @@ body {
 
 .posts{
     background: rgb(230, 236, 238);
+    display: inline-block;
     text-align: left;
     padding: 25px;
     margin:  25px auto ;
     width: 50%;
     vertical-align: middle;
     border-radius: 15px;
-    border: rgb(77, 118, 151) 3px solid
-
+    transition: all 0.1s;
 }
 
 .posts:hover,
 .posts:active{
-    border-color: turquoise;
+    border-color: turquoise 5px solid;
     background-color: lightcyan;
+    transform: scale(1.05);
 }
 
 .posts__Titulos{
