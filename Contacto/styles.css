@@ -1,0 +1,84 @@
+/*---------------------margen 0 universal--*/
+*{margin: 0;
+    padding: 0;}
+    
+    
+    
+    /*---------------------------body--*/
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /*------------------------menú--*/
+    .nav{
+        height: 4rem;
+        background-color: #050606;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    /*cambio de color letra*/
+    .nav a{
+        color: white;
+        text-decoration: none;
+    
+    }
+    
+    /*lista una alado de otra*/
+    .nav__brand, 
+    .nav__list, 
+    .nav__list__item{
+        display: inline-block;
+        font-weight: bold;
+    }
+    
+    .nav__list__item,
+    .nav__list__item a{
+        padding: 0.6rem;
+    }
+    
+    /*modificador mouse encima lista*/
+    .nav__list a{
+    position: relative;
+    top: 0rem;
+    transition: 0.3s;
+    }
+    
+    .nav__list a:hover{
+        color: #b8cf35;
+        text-decoration: overline 3px #b8cf35;
+        text-decoration-style: wavy;
+        top: 0.3rem;
+    }
+    
+    
+    /*modificador mouse encima marca*/
+    .nav__brand,
+    .nav__brand a{
+        padding: 0.6rem;
+        
+    }
+    
+    .nav__brand a{
+        position: relative;
+        top: 0rem;
+        transition: 0.3s;
+    }
+    
+    
+    .nav__brand a:hover{
+        color: #fec938;
+        text-decoration: overline 3px #fec938;
+        text-decoration-style: wavy;
+        top: 0.5rem;
+    }
+
+    .nav__list__item--current, .nav__list__item--current a{
+        color:#ff00dd;
+        display: inline;
+        text-decoration: overline 3px #ff00dd;
+        text-decoration-style: wavy;
+        bottom: 0.5rem;
+    }
+        
